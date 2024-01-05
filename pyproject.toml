@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nano-gpodder-server"
+version = "0.1.0"
+description = ""
+authors = ["anon-dev <148810564+anon-dev-gh@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^2.0.25"
+fastapi = "^0.108.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
