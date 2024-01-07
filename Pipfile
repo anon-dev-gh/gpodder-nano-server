@@ -1,0 +1,10 @@
+[packages]
+SQLAlchemy = "*"
+fastapi = "*"
+uvicorn = "*"
+dependency-injector = "*"
+
+[dev-packages]
+pytest = "*"
+mypy = "*"
+pre-commit = "*"

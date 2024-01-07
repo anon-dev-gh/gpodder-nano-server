@@ -1,7 +1,9 @@
 {
 	"name": "gpodder_nano_server",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "../Dockerfile",
+		"context": "..",
+		"target": "devcontainer"
 	},
 	"customizations": {
 		"vscode": {
@@ -20,5 +22,6 @@
 				"explorer.excludeGitIgnore": true
 			}
 		}
-	}
+	},
+	"postCreateCommand": "pre-commit install-hooks"
 }

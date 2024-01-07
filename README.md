@@ -1,6 +1,5 @@
 gpodder-nano-server
 ===================
-
 An antenna-pod compliant gpodder server aimed for self hosting.
 
 ```shell
