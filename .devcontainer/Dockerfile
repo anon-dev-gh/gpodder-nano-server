@@ -1,5 +1,4 @@
 FROM mcr.microsoft.com/devcontainers/base:jammy
-# FROM mcr.microsoft.com/devcontainers/base:jammy 
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG USER=vscode
@@ -43,3 +42,5 @@ RUN echo "done 0" \
     && echo "done 3" \
     && curl -sSL https://install.python-poetry.org | python3 - \
     && poetry config virtualenvs.in-project true
+
+# RUN poetry install --no-root
