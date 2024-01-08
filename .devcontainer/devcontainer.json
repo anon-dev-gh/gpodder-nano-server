@@ -9,12 +9,14 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"njpwerner.autodocstring"
+				"njpwerner.autodocstring",
+				"matangover.mypy",
+				"mikoz.autoflake-extension"
 			],
 			"settings": {
 				// use pytest for testing
 				"python.testing.pytestArgs": [
-					"test"
+					"gpodder_nano_server/test"
 				],
 				"python.testing.unittestEnabled": false,
 				"python.testing.pytestEnabled": true,
